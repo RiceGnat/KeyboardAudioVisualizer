@@ -157,7 +157,7 @@ namespace KeyboardAudioVisualizer
             surface.LoadDevices(deviceProvider, RGBDeviceType.Keyboard | RGBDeviceType.LedMatrix
                                               | RGBDeviceType.Mousepad | RGBDeviceType.LedStripe
                                               | RGBDeviceType.Mouse | RGBDeviceType.Headset
-                                              | RGBDeviceType.HeadsetStand);
+                                              | RGBDeviceType.HeadsetStand | RGBDeviceType.Fan);
         }
 
         //TODO DarthAffe 12.09.2017: This is just a big mess - is this worth to rework before arge?
